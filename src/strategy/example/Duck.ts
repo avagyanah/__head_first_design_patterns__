@@ -1,10 +1,3 @@
-export interface IFlyable {
-  fly: () => void;
-}
-export interface IQuackable {
-  quack: () => void;
-}
-
 export abstract class Duck {
   protected quackBehavior: IQuackBehavior;
   protected flyBehavior: IFlyBehavior;
